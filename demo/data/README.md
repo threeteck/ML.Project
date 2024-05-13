@@ -1,0 +1,1 @@
+Put `tag_vocab.pkl` and `attr_vocab.pkl` here

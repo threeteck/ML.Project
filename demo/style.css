@@ -1,0 +1,58 @@
+/* style.css */
+html, body, [class*="st"] {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #dedede;
+}
+
+.stTextInput, .stButton {
+    margin-bottom: 20px; /* Adds margin below each input and button */
+}
+
+.stTextInput > div > div > input {
+    border-radius: 20px;
+    border: 2px solid #79aec8;
+    outline: none; /* Removes the outline when input is focused */
+}
+
+.stTextInput > div {
+    border-radius: 20px;
+    border: none;
+}
+
+.stButton > button {
+    width: 100%; /* Sets button width to 100% */
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #79aec8;
+    color: #b4b4b4;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.stButton > button:hover {
+    background-color: #4a8da8;
+    transform: scale(1.05);
+}
+
+.stMarkdown {
+    font-size: 16px;
+    margin-bottom: 10px; /* Adds margin below text */
+}
+
+.stAlert {
+    font-size: 18px; /* Increased font size for alerts */
+    border-radius: 10px;
+}
+
+.stAlert p {
+    font-size: 20px; /* Increased font size for alerts */
+}
+
+.stException p {
+    font-size: 20px; /* Increased font size for alerts */
+}
+
+.sidebar .sidebar-content {
+    background-color: #f0f2f6;
+    border-right: 2px solid #dedede;
+}
